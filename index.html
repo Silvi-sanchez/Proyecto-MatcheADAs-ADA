@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Silvina Sánchez">
+    <meta name="description" content="Proyecto MatcheADAs como evaluación final del módulo de ADA">
+    <meta name="keywords" content="Proyecto, Juego MatcheADAs, Front End, Programación, ADA">
+    <!-- Links -->
+    <link rel="shortcut icon" href="./img/icono.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Proyecto MatcheADAs</title>
+
+</head>
+<body class="contenedor-padre">
+  <main>
+            <!-- TITULO, COMBO Y PUNTOS -->
+    <section class="contenedor">
+      <h1 class="titulo">MatcheADAs</h1>
+      <div class="barra-superior">
+        <div class="contenedor-puntos">
+          <p class="combo">Combo x<span id="combo">1</span></p>
+          <p class="puntos">Puntos: <span id="puntos" class="puntos">0</span></p>
+        </div>
+            <!-- ICONOS INFORMACIÓN Y REINICIAR JUEGO -->
+        <div>
+          <button id="botonInformacion" aria-label="Instrucciones">
+            <i class="fas fa-info-circle" aria-hidden="true"></i>
+          </button>
+          <button id="botonReiniciar" aria-label="Reiniciar">
+            <i class="fas fa-undo-alt" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+            <!-- CONTENEDOR TABLERO -->
+      <div class="contenedor-tablero">
+        <div class="tablero" id="tablero"></div>
+      </div>
+            <!-- CONTENEDOR DE TIEMPO -->
+      <div class="contenedor-tiempo">
+        <i class="fas fa-hourglass-half" aria-hidden="true"></i>
+        <p class="tiempo-restante" id="tiempoRestante">0:00</p>
+      </div>
+    </section>
+  </main> 
+
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./app.js"></script>
+    
+</body>
+</html>
