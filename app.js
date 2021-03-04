@@ -138,3 +138,6 @@ botonInformacion.addEventListener('click', () => bienvenidaModal(true));
 window.addEventListener('load', ()=>{
   bienvenidaModal(false);
 });
+
+
+    
