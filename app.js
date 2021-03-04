@@ -133,8 +133,7 @@ botonReiniciar.addEventListener('click', botonReinicio);
             // APLICANDO EVENTO AL BOTON INFORMACION
 botonInformacion.addEventListener('click', () => bienvenidaModal(true));
 
-
-
+            //AL CARGAR LA PAGINA SE MUESTRAN AMBOS MODALES(BIENVENIDA E INFO)
 window.addEventListener('load', ()=>{
   bienvenidaModal(false);
 });
