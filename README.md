@@ -6,7 +6,8 @@
 
 ### Podés jugarlo dándole click a este [enlace](https://silvi-sanchez.github.io/Proyecto-MatcheADAs-ADA/)
 
-![Imagen](/img/captura.png)
+![Imagen](/img/foto.png)
+
 
 ***
 
