@@ -8,6 +8,7 @@
 
 ![Imagen](/img/foto.png)
 
+
 ***
 
 Si querés tener el código en tu computadora, deberás seguir estos pasos en tu terminal:
